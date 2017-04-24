@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.11" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="F:/postgresql-jdbc-42.0.0.src/postgresql-jdbc-42.0-0.src/test-anorm-sbt" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="F:/postgresql-jdbc-42.0.0.src/postgresql-jdbc-42.0-0.src/test-anorm-sbt" />
+            <option value="F:/postgresql-jdbc-42.0.0.src/postgresql-jdbc-42.0-0.src/test-anorm-sbt/project" />
+          </set>
+        </option>
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="" />
+  </component>
+</project>
