@@ -25,13 +25,9 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="6cf299a1-0ba1-47ad-90a0-d35831495606">
-        <schema name="pg_catalog" object-types="constraint, sequence, table" />
+        <schema name="information_schema" object-types="function, sequence, table, view" />
+        <schema name="pg_catalog" object-types="constraint, function, sequence, table, view" />
         <schema name="public" object-types="constraint, function, sequence, table, view" />
-      </connection>
-      <connection connection-id="fc168aed-3ea1-4fe9-9de4-ab21765f6a32">
-        <schema name="information_schema" object-types="sequence, table" />
-        <schema name="pg_catalog" object-types="sequence, table" />
-        <schema name="public" object-types="sequence, table" />
       </connection>
     </loaded-nodes>
   </component>
@@ -54,7 +50,7 @@ password varchar(64) NOT NULL
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/conf/evolutions.default/1.sql" connection-id="" current-schema="information_schema" />
+    <mapping file-url="file://$PROJECT_DIR$/conf/evolutions.default/1.sql" connection-id="6cf299a1-0ba1-47ad-90a0-d35831495606" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

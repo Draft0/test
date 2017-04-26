@@ -1,37 +1,49 @@
-New log file opened at Mon Apr 24 17:40:09 MSK 2017 by 2584@DESKTOP-KT7U7N9
-Taking next connection to: 37246
-New client attempting to connect on port: 37247-37246
-  Address = /192.168.0.154:37246
-This client on port 37247 has uuid 226f6676-905f-466c-bb8a-c043cc4de216 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-226f6676-905f-466c-bb8a-c043cc4de216
-Taking next connection to: 37246
+New log file opened at Wed Apr 26 21:04:46 MSK 2017 by 9044@DESKTOP-KT7U7N9
+Taking next connection to: 20548
+New client attempting to connect on port: 20549-20548
+  Address = /192.168.0.154:20548
+This client on port 20549 has uuid bd1f4252-d3b8-43ba-8880-39c5c75f8ab5 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-bd1f4252-d3b8-43ba-8880-39c5c75f8ab5
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37246
+Taking next connection to: 20548
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 20548
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 20548
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 9044@DESKTOP-KT7U7N9 logs at Wed Apr 26 21:43:46 MSK 2017, goodbye.

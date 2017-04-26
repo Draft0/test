@@ -1,6 +1,6 @@
 name := """draft"""
 
-version := "1.0-SNAPSHOT"
+version := "2.6.2-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava, PlayEbean)
 
@@ -19,14 +19,15 @@ jdbc,
 "io.ebean" % "ebean-agent" % "10.1.7",
   "org.postgresql" % "postgresql" % "42.0.0",
   "org.easytesting" % "fest-assert" % "1.4",
-  "org.testng" % "testng" % "6.8"
+  "org.testng" % "testng" % "6.8",
+  "com.edulify" %% "play-hikaricp" % "2.1.0"
 
 )
 libraryDependencies += evolutions
 
 
 
-
+resolvers += Resolver.url("Edulify Repository", url("https://edulify.github.io/modules/releases/"))(Resolver.ivyStylePatterns)
 resolvers ++= DefaultOptions.resolvers(snapshot = true)
 
 playEbeanModels in Compile := Seq("models.ebean*")
