@@ -11,28 +11,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="apache-maven" target="1.7" />
-      <module name="ebean" target="1.5" />
-      <module name="enhancement" target="1.5" />
-      <module name="maven" target="1.7" />
-      <module name="maven-artifact" target="1.7" />
-      <module name="maven-builder-support" target="1.7" />
-      <module name="maven-compat" target="1.7" />
-      <module name="maven-core" target="1.7" />
-      <module name="maven-embedder" target="1.7" />
-      <module name="maven-model" target="1.7" />
-      <module name="maven-model-builder" target="1.7" />
-      <module name="maven-plugin-api" target="1.7" />
-      <module name="maven-repository-metadata" target="1.7" />
-      <module name="maven-resolver-provider" target="1.7" />
-      <module name="maven-settings" target="1.7" />
-      <module name="maven-settings-builder" target="1.7" />
-      <module name="maven-slf4j-provider" target="1.7" />
-      <module name="pgjdbc-aggregate" target="1.5" />
-      <module name="pgjdbc-benchmark" target="1.8" />
-      <module name="postgresql" target="1.5" />
-      <module name="postgresql (1)" target="1.8" />
-      <module name="postgresql (2) (org.postgresql)" target="1.8" />
       <module name="root" target="1.5" />
     </bytecodeTargetLevel>
   </component>

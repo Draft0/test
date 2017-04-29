@@ -24,6 +24,7 @@
             <option value="F:/postgresql-jdbc-42.0.0.src/postgresql-jdbc-42.0-0.src/test-anorm-sbt/project" />
           </set>
         </option>
+        <option name="resolveSbtClassifiers" value="true" />
       </SbtProjectSettings>
     </option>
     <option name="vmParameters" value="" />
