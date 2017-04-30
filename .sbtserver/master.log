@@ -1,5 +1,5 @@
-New log file opened at Sun Apr 30 01:14:34 MSK 2017 by 292@DESKTOP-KT7U7N9
-jvm 292@DESKTOP-KT7U7N9
+New log file opened at Sun Apr 30 15:44:48 MSK 2017 by 5692@DESKTOP-KT7U7N9
+jvm 5692@DESKTOP-KT7U7N9
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.121-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Draft\.sbt\0.13\plugins, returning: (global-plugins)
 Loading global plugins from C:\Users\Draft\.sbt\0.13\plugins
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@1e5fcf8d, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4b3e4a50, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -62,7 +62,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in F:\play_framework\draft\project, returning: (draft-build)
 Loading project definition from F:\play_framework\draft\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@1e5fcf8d, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4b3e4a50, check cycles: false
 
 Initial source changes: 
 	removed:Set()

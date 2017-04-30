@@ -1,4 +1,5 @@
-New log file opened at Sun Apr 30 01:11:49 MSK 2017 by 5228@DESKTOP-KT7U7N9
+New log file opened at Sun Apr 30 15:42:04 MSK 2017 by 472@DESKTOP-KT7U7N9
+== resolving dependencies com.typesafe.play#play-java_2.11;2.5.14->com.typesafe.play#play_2.11;2.5.14 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java_2.11;2.5.14->com.typesafe.play#play_2.11;2.5.14 [runtime->compile]
 == resolving dependencies com.typesafe.play#play-java_2.11;2.5.14->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java_2.11;2.5.14->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
@@ -6087,7 +6088,7 @@ all callers are evicted for org.hamcrest#hamcrest-core;1.1: evicting too
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
-:: resolution report :: resolve 5908ms :: artifacts dl 2995ms
+:: resolution report :: resolve 5164ms :: artifacts dl 1483ms
 	report for draft#draft_2.11;2.6.2-SNAPSHOT universal produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-universal.xml
 	report for draft#draft_2.11;2.6.2-SNAPSHOT universal-docs produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-universal-docs.xml
 	report for draft#draft_2.11;2.6.2-SNAPSHOT universal-src produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-universal-src.xml
@@ -6110,7 +6111,7 @@ all callers are evicted for org.hamcrest#hamcrest-core;1.1: evicting too
 	report for draft#draft_2.11;2.6.2-SNAPSHOT pom produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-pom.xml
 	report for draft#draft_2.11;2.6.2-SNAPSHOT scala-tool produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-scala-tool.xml
 	report for draft#draft_2.11;2.6.2-SNAPSHOT fork-run produced in F:\play_framework\draft\target\resolution-cache\reports\draft-draft_2.11-fork-run.xml
-	resolve done (5908ms resolve - 2995ms download)
+	resolve done (5164ms resolve - 1483ms download)
 Read from stdout: Done updating.
 Done updating.
 Read from stdout: There may be incompatibilities among your library dependencies.
@@ -6123,44 +6124,44 @@ Read from stdout: 	* org.hibernate:hibernate-core:5.1.0.Final -> 5.2.5.Final
 	* org.hibernate:hibernate-core:5.1.0.Final -> 5.2.5.Final
 Read from stdout: Run 'evicted' to see detailed eviction warnings
 Run 'evicted' to see detailed eviction warnings
-Total time: 10 s, completed 30.04.2017 1:11:54
+Total time: 8 s, completed 30.04.2017 15:42:07
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f7756a8, check cycles: false
-Total time: 0 s, completed 30.04.2017 1:11:57
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bf814d6, check cycles: false
+Total time: 0 s, completed 30.04.2017 15:42:17
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/F:/play_framework/draft/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@11bc7ea8, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@67520d2b, check cycles: false
 
 Initial source changes: 
 	removed:Set()
-	added: Set(F:\play_framework\draft\app\services\AtomicCounter.java, F:\play_framework\draft\app\controllers\HomeController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala, F:\play_framework\draft\app\services\UserDetailsServiceImpl.java, F:\play_framework\draft\app\models\ebean\Role.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala, F:\play_framework\draft\app\services\ApplicationTimer.java, F:\play_framework\draft\app\filters\ExampleFilter.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java, F:\play_framework\draft\app\validator\UserValidator.java, F:\play_framework\draft\app\models\RoleDao.java, F:\play_framework\draft\app\services\UserService.java, F:\play_framework\draft\app\Module.java, F:\play_framework\draft\app\services\SecurityService.java, F:\play_framework\draft\app\services\UserServiceImpl.java, F:\play_framework\draft\app\Filters.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, F:\play_framework\draft\app\services\Counter.java, F:\play_framework\draft\app\models\ebean\User.java, F:\play_framework\draft\app\services\SecurityServiceImpl.java, F:\play_framework\draft\app\models\UserDao.java, F:\play_framework\draft\app\controllers\AsyncController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala, F:\play_framework\draft\app\controllers\CountController.java)
-	modified: Set()
-Removed products: Set()
+	added: Set()
+	modified: Set(F:\play_framework\draft\app\validator\UserValidator.java)
+Removed products: Set(F:\play_framework\draft\target\scala-2.11\classes\controllers\ReverseAsyncController.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_versioned3_invoker$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header_Scope0$header.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main_Scope0.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\javascript\ReverseCountController.class, F:\play_framework\draft\target\scala-2.11\classes\router\RoutesPrefix.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index_Scope0.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\javascript\ReverseHomeController.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main_Scope0$main.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header_Scope0$.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\javascript\ReverseAsyncController.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_HomeController_index0_invoker$1.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header_Scope0.class, F:\play_framework\draft\target\scala-2.11\classes\router\RoutesPrefix$$anonfun$1.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main$.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index_Scope0$.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\ReverseAssets.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\ReverseCountController.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_CountController_count1_invoker$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\RoutesPrefix$.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main_Scope0$main$$anonfun$f$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header$.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index$.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_AsyncController_message2_invoker$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main_Scope0$main$$anonfun$f$1$$anonfun$apply$1.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\main_Scope0$.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\javascript\ReverseAssets.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header_Scope0$header$$anonfun$f$1.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index_Scope0$index.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\header.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class, F:\play_framework\draft\target\scala-2.11\classes\views\html\index_Scope0$index$$anonfun$f$1.class, F:\play_framework\draft\target\scala-2.11\classes\controllers\ReverseHomeController.class, F:\play_framework\draft\target\scala-2.11\classes\router\Routes$$anonfun$routes$1.class)
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(F:\play_framework\draft\app\services\AtomicCounter.java, F:\play_framework\draft\app\controllers\HomeController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala, F:\play_framework\draft\app\services\UserDetailsServiceImpl.java, F:\play_framework\draft\app\models\ebean\Role.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala, F:\play_framework\draft\app\services\ApplicationTimer.java, F:\play_framework\draft\app\filters\ExampleFilter.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java, F:\play_framework\draft\app\validator\UserValidator.java, F:\play_framework\draft\app\models\RoleDao.java, F:\play_framework\draft\app\services\UserService.java, F:\play_framework\draft\app\Module.java, F:\play_framework\draft\app\services\SecurityService.java, F:\play_framework\draft\app\services\UserServiceImpl.java, F:\play_framework\draft\app\Filters.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, F:\play_framework\draft\app\services\Counter.java, F:\play_framework\draft\app\models\ebean\User.java, F:\play_framework\draft\app\services\SecurityServiceImpl.java, F:\play_framework\draft\app\models\UserDao.java, F:\play_framework\draft\app\controllers\AsyncController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala, F:\play_framework\draft\app\controllers\CountController.java)
+Initial directly invalidated sources: Set(F:\play_framework\draft\app\validator\UserValidator.java)
 
 Sources indirectly invalidated by:
-	product: Set()
+	product: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala)
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(F:\play_framework\draft\app\services\AtomicCounter.java, F:\play_framework\draft\app\controllers\HomeController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala, F:\play_framework\draft\app\services\UserDetailsServiceImpl.java, F:\play_framework\draft\app\models\ebean\Role.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala, F:\play_framework\draft\app\services\ApplicationTimer.java, F:\play_framework\draft\app\filters\ExampleFilter.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java, F:\play_framework\draft\app\validator\UserValidator.java, F:\play_framework\draft\app\models\RoleDao.java, F:\play_framework\draft\app\services\UserService.java, F:\play_framework\draft\app\Module.java, F:\play_framework\draft\app\services\SecurityService.java, F:\play_framework\draft\app\services\UserServiceImpl.java, F:\play_framework\draft\app\Filters.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, F:\play_framework\draft\app\services\Counter.java, F:\play_framework\draft\app\models\ebean\User.java, F:\play_framework\draft\app\services\SecurityServiceImpl.java, F:\play_framework\draft\app\models\UserDao.java, F:\play_framework\draft\app\controllers\AsyncController.java, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala, F:\play_framework\draft\app\controllers\CountController.java)
+All initially invalidated sources: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala, F:\play_framework\draft\app\validator\UserValidator.java, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala, F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala, F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala)
 
-Recompiling all 27 sources: invalidated sources (27) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 20 Java sources to F:\play_framework\draft\target\scala-2.11\classes...
-Compiling 7 Scala sources and 20 Java sources to F:\play_framework\draft\target\scala-2.11\classes...
+Read from stdout: Compiling 7 Scala sources and 1 Java source to F:\play_framework\draft\target\scala-2.11\classes...
+Compiling 7 Scala sources and 1 Java source to F:\play_framework\draft\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
+Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
-Running cached compiler 49286d45, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Running cached compiler 76363767, interfacing (CompilerInterface) with Scala compiler version 2.11.7
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -6170,209 +6171,11 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\Draft\Desktop\activator-dist-1.3.12\repository\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar
 	-classpath
 	F:\play_framework\draft\target\scala-2.11\classes;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\Draft\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\Draft\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-ebean_2.11\jars\play-ebean_2.11-3.0.2.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Draft\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\Draft\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\Draft\Desktop\activator-dist-1.3.12\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.17.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.17.jar;C:\Users\Draft\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\Draft\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Draft\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.17.jar;C:\Users\Draft\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\Draft\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Draft\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Draft\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Draft\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\Draft\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\Draft\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\Draft\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\Draft\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Draft\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\Draft\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\Draft\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\Draft\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\Draft\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\Draft\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\Draft\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\Draft\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.2.jar;C:\Users\Draft\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\Draft\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\Draft\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\Draft\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\Draft\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm\jars\avaje-ebeanorm-7.6.1.jar;C:\Users\Draft\.ivy2\cache\org.jetbrains\annotations\jars\annotations-13.0.jar;C:\Users\Draft\.ivy2\cache\javax.persistence\persistence-api\jars\persistence-api-1.0.jar;C:\Users\Draft\.ivy2\cache\org.avaje\avaje-datasource-api\jars\avaje-datasource-api-1.1.jar;C:\Users\Draft\.ivy2\cache\org.avaje\avaje-datasource\jars\avaje-datasource-1.1.2.jar;C:\Users\Draft\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm-cluster\jars\avaje-ebeanorm-cluster-1.1.1.jar;C:\Users\Draft\.ivy2\cache\org.avaje\avaje-classpath-scanner-api\jars\avaje-classpath-scanner-api-2.1.jar;C:\Users\Draft\.ivy2\cache\org.avaje\avaje-classpath-scanner\jars\avaje-classpath-scanner-2.1.1.jar;C:\Users\Draft\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm-agent\jars\avaje-ebeanorm-agent-4.9.2.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.2.3.jar;C:\Users\Draft\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.2.3.jar;C:\Users\Draft\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.25.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-java-jpa_2.11\jars\play-java-jpa_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.14.jar;C:\Users\Draft\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.24.jar;C:\Users\Draft\.ivy2\cache\org.asynchttpclient\async-http-client-netty-utils\jars\async-http-client-netty-utils-2.0.24.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.42.Final.jar;C:\Users\Draft\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.42.Final-linux-x86_64.jar;C:\Users\Draft\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.24.jar;C:\Users\Draft\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.24.jar;C:\Users\Draft\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.24.jar;C:\Users\Draft\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.21.0-GA.jar;C:\Users\Draft\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\Draft\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\Draft\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.4.4.jar;C:\Users\Draft\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.5.2.jar;C:\Users\Draft\.ivy2\cache\org.webjars\jquery\jars\jquery-1.11.1.jar;C:\Users\Draft\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.7.jar;C:\Users\Draft\.ivy2\cache\org.avaje\ebean\jars\ebean-2.8.1.jar;C:\Users\Draft\.ivy2\cache\io.ebean\ebean-agent\jars\ebean-agent-10.1.7.jar;C:\Users\Draft\.ivy2\cache\org.postgresql\postgresql\bundles\postgresql-42.0.0.jar;C:\Users\Draft\Desktop\activator-dist-1.3.12\repository\org.easytesting\fest-assert\1.4\jars\fest-assert.jar;C:\Users\Draft\Desktop\activator-dist-1.3.12\repository\org.easytesting\fest-util\1.1.6\jars\fest-util.jar;C:\Users\Draft\.ivy2\cache\org.testng\testng\jars\testng-6.8.jar;C:\Users\Draft\.ivy2\cache\junit\junit\jars\junit-4.10.jar;C:\Users\Draft\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.1.jar;C:\Users\Draft\.ivy2\cache\org.beanshell\bsh\jars\bsh-2.0b4.jar;C:\Users\Draft\.ivy2\cache\com.beust\jcommander\jars\jcommander-1.27.jar;C:\Users\Draft\.ivy2\cache\org.hibernate\hibernate-core\jars\hibernate-core-5.2.5.Final.jar;C:\Users\Draft\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.3.0.Final.jar;C:\Users\Draft\.ivy2\cache\antlr\antlr\jars\antlr-2.7.7.jar;C:\Users\Draft\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\jars\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\Draft\.ivy2\cache\org.jboss\jandex\bundles\jandex-2.0.3.Final.jar;C:\Users\Draft\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.3.0.jar;C:\Users\Draft\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\Users\Draft\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\jars\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\Draft\.ivy2\cache\javax.enterprise\cdi-api\jars\cdi-api-1.1.jar;C:\Users\Draft\.ivy2\cache\javax.el\el-api\jars\el-api-2.2.jar;C:\Users\Draft\.ivy2\cache\org.jboss.spec.javax.interceptor\jboss-interceptors-api_1.1_spec\jars\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;C:\Users\Draft\Desktop\activator-dist-1.3.12\repository\javax.annotation\jsr250-api\1.0\jars\jsr250-api.jar;C:\Users\Draft\.ivy2\cache\org.hibernate\hibernate-entitymanager\jars\hibernate-entitymanager-5.1.0.Final.jar;C:\Users\Draft\.ivy2\cache\org.springframework.data\spring-data-jpa\jars\spring-data-jpa-1.11.0.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework.data\spring-data-commons\jars\spring-data-commons-1.13.0.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-orm\jars\spring-orm-4.3.6.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-jdbc\jars\spring-jdbc-4.3.6.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-tx\jars\spring-tx-4.3.6.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.aspectj\aspectjrt\jars\aspectjrt-1.8.10.jar;C:\Users\Draft\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.22.jar;C:\Users\Draft\.ivy2\cache\org.springframework.security\spring-security-crypto\jars\spring-security-crypto-3.1.0.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework.security\spring-security-core\jars\spring-security-core-3.1.0.RELEASE.jar;C:\Users\Draft\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.2.1.jar;C:\Users\Draft\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.9.13.jar;C:\Users\Draft\.ivy2\cache\javax.mail\mail\jars\mail-1.5.0-b01.jar;C:\Users\Draft\.ivy2\cache\javax.activation\activation\jars\activation-1.1.jar;C:\Users\Draft\.ivy2\cache\stax\stax-api\jars\stax-api-1.0.1.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-webmvc\jars\spring-webmvc-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-aop\jars\spring-aop-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-expression\jars\spring-expression-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-web\jars\spring-web-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.springframework\spring-aspects\jars\spring-aspects-4.3.7.RELEASE.jar;C:\Users\Draft\.ivy2\cache\org.aspectj\aspectjweaver\jars\aspectjweaver-1.8.9.jar
-Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Scala compilation took 12.826053931 s
-Attempting to call com.sun.tools.javac.api.JavacTool@2c7a59ea directly...
-Java compilation took 1.236839567 s
-Java analysis took 0.017514795 s
-Java compile + analysis took 1.262529983 s
-Invalidating F:\play_framework\draft\app\filters\ExampleFilter.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\filters\ExampleFilter.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\filters\ExampleFilter.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\filters\ExampleFilter.java)
-The F:\play_framework\draft\app\filters\ExampleFilter.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\Module.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\Module.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\Module.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\Module.java)
-The F:\play_framework\draft\app\Module.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\UserService.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\UserService.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\UserService.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\UserService.java)
-The F:\play_framework\draft\app\services\UserService.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\validator\UserValidator.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\validator\UserValidator.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\validator\UserValidator.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\validator\UserValidator.java)
-The F:\play_framework\draft\app\validator\UserValidator.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java)
-The F:\play_framework\draft\target\scala-2.11\routes\main\controllers\routes.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala. This dependency is not being considered for invalidation.
-Invalidating F:\play_framework\draft\app\models\UserDao.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\models\UserDao.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\models\UserDao.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\models\UserDao.java)
-The F:\play_framework\draft\app\models\UserDao.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala)
-The F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala source file has the following regular definitions changed:
-	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, main, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, main_Scope0, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala: Set(format, _display_, main, <init>, apply)
-Invalidating F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala)
-The F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\header.template.scala source file has the following regular definitions changed:
-	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, header_Scope0, <init>, apply, ==, clone, copy, header, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala: Set(format, _display_, <init>, apply, header)
-Invalidating F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
-The F:\play_framework\draft\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ReverseHomeController, $isInstanceOf, ReverseCountController, ReverseAssets, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, versioned, eq, ##, finalize, index, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\UserDetailsServiceImpl.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\UserDetailsServiceImpl.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\UserDetailsServiceImpl.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\UserDetailsServiceImpl.java)
-The F:\play_framework\draft\app\services\UserDetailsServiceImpl.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\models\RoleDao.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\models\RoleDao.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\models\RoleDao.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\models\RoleDao.java)
-The F:\play_framework\draft\app\models\RoleDao.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\models\ebean\User.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\models\ebean\User.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\models\ebean\User.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\models\ebean\User.java)
-The F:\play_framework\draft\app\models\ebean\User.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\ApplicationTimer.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\ApplicationTimer.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\ApplicationTimer.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\ApplicationTimer.java)
-The F:\play_framework\draft\app\services\ApplicationTimer.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala)
-The F:\play_framework\draft\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ReverseHomeController, $isInstanceOf, ReverseCountController, ReverseAssets, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, versioned, eq, ##, finalize, index, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\main.template.scala: Set(<init>, versioned)
-Invalidating F:\play_framework\draft\app\controllers\HomeController.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\controllers\HomeController.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\controllers\HomeController.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\controllers\HomeController.java)
-The F:\play_framework\draft\app\controllers\HomeController.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala. This dependency is not being considered for invalidation.
-Invalidating F:\play_framework\draft\app\services\UserServiceImpl.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\UserServiceImpl.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\UserServiceImpl.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\UserServiceImpl.java)
-The F:\play_framework\draft\app\services\UserServiceImpl.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\Counter.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\Counter.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\Counter.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\Counter.java)
-The F:\play_framework\draft\app\services\Counter.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\AtomicCounter.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\AtomicCounter.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\AtomicCounter.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\AtomicCounter.java)
-The F:\play_framework\draft\app\services\AtomicCounter.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala)
-The F:\play_framework\draft\target\scala-2.11\twirl\main\views\html\index.template.scala source file has the following regular definitions changed:
-	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, index_Scope0, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, index, productElement, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\models\ebean\Role.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\models\ebean\Role.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\models\ebean\Role.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\models\ebean\Role.java)
-The F:\play_framework\draft\app\models\ebean\Role.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\controllers\CountController.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\controllers\CountController.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\controllers\CountController.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\controllers\CountController.java)
-The F:\play_framework\draft\app\controllers\CountController.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala. This dependency is not being considered for invalidation.
-Invalidating F:\play_framework\draft\app\controllers\AsyncController.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\controllers\AsyncController.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\controllers\AsyncController.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\controllers\AsyncController.java)
-The F:\play_framework\draft\app\controllers\AsyncController.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala. This dependency is not being considered for invalidation.
-Invalidating F:\play_framework\draft\app\Filters.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\Filters.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\Filters.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\Filters.java)
-The F:\play_framework\draft\app\Filters.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala)
-The F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala source file has the following regular definitions changed:
-	notify, badRequest, wait, controllers_CountController_count1_invoker, $asInstanceOf, routes, createInvoker, equals, prefix, controllers_Assets_versioned3_route, asInstanceOf, documentation, synchronized, $isInstanceOf, handlerFor, controllers_CountController_count1_route, notifyAll, isInstanceOf, asJava, errorHandler, <init>, controllers_Assets_versioned3_invoker, ==, clone, controllers_AsyncController_message2_route, Routes, controllers_AsyncController_message2_invoker, toString, !=, controllers_HomeController_index0_invoker, fakeValue, getClass, ne, withPrefix, call, controllers_HomeController_index0_route, eq, defaultPrefix, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala...
-Initial set of included nodes: Set(F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-The F:\play_framework\draft\target\scala-2.11\routes\main\router\RoutesPrefix.scala source file has the following regular definitions changed:
-	notify, byNamePrefix, wait, $asInstanceOf, equals, prefix, asInstanceOf, RoutesPrefix, synchronized, $isInstanceOf, _prefix, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, setPrefix, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of F:\play_framework\draft\target\scala-2.11\routes\main\router\Routes.scala: Set(prefix, asInstanceOf, RoutesPrefix, isInstanceOf, getClass, setPrefix)
-Invalidating F:\play_framework\draft\app\services\SecurityService.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\SecurityService.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\SecurityService.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\SecurityService.java)
-The F:\play_framework\draft\app\services\SecurityService.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating F:\play_framework\draft\app\services\SecurityServiceImpl.java...
-Invalidating (transitively) by inheritance from F:\play_framework\draft\app\services\SecurityServiceImpl.java...
-Initial set of included nodes: Set(F:\play_framework\draft\app\services\SecurityServiceImpl.java)
-Invalidated by transitive inheritance dependency: Set(F:\play_framework\draft\app\services\SecurityServiceImpl.java)
-The F:\play_framework\draft\app\services\SecurityServiceImpl.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
+Scala compilation took 9.139617654 s
+Attempting to call com.sun.tools.javac.api.JavacTool@73db0062 directly...
+Java compilation took 0.972064605 s
+Java analysis took 0.02878076 s
+Java compile + analysis took 1.009262518 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
@@ -6380,91 +6183,12 @@ Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
 ebean-enhance> transform> pkg: models/ebean
-ebean-enhance> cls: models/ebean/Role  msg: interfaces:  entityInterface[false] transactional[false]
-ebean-enhance> cls: models/ebean/Role  msg: performing entity transform
-ebean-enhance> cls: models/ebean/Role  msg: ... add marker field "models.ebean.Role"
-ebean-enhance> cls: models/ebean/Role  msg: ... add _ebean_props field
-ebean-enhance> cls: models/ebean/Role  msg: ... add intercept and identity fields
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[<init>] desc[()V] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: ... flush deferred: ALOAD 0
-ebean-enhance> cls: models/ebean/Role  msg: ... adding intercept <init> in CONSTRUCTOR:()V OWNER/SUPER:java/lang/Object
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[getId] desc[()Ljava/lang/Long;] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: GETFIELD method:getId ()Ljava/lang/Long; field:id > _ebean_get_id ()Ljava/lang/Long;
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[setId] desc[(Ljava/lang/Long;)V] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: PUTFIELD method:setId (Ljava/lang/Long;)V field:id > _ebean_set_id (Ljava/lang/Long;)V
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[getName] desc[()Ljava/lang/String;] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: GETFIELD method:getName ()Ljava/lang/String; field:name > _ebean_get_name ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[setName] desc[(Ljava/lang/String;)V] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: PUTFIELD method:setName (Ljava/lang/String;)V field:name > _ebean_set_name (Ljava/lang/String;)V
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[getUsers] desc[()Ljava/util/Set;] sig[()Ljava/util/Set<Lorg/h2/engine/User;>;]
-ebean-enhance> cls: models/ebean/Role  msg: GETFIELD method:getUsers ()Ljava/util/Set; field:users > _ebean_get_users ()Ljava/util/Set;
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[setUsers] desc[(Ljava/util/Set;)V] sig[(Ljava/util/Set<Lorg/h2/engine/User;>;)V]
-ebean-enhance> cls: models/ebean/Role  msg: PUTFIELD method:setUsers (Ljava/util/Set;)V field:users > _ebean_set_users (Ljava/util/Set;)V
-ebean-enhance> cls: models/ebean/Role  msg: --- #### method name[toString] desc[()Ljava/lang/String;] sig[null]
-ebean-enhance> cls: models/ebean/Role  msg: ... add _ebean_getPropertyNames() and _ebean_getPropertyName()
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_get_id ()Ljava/lang/Long; intercept:false [Ljavax/persistence/Id;, Ljavax/persistence/GeneratedValue;]
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_set_id (Ljava/lang/Long;)V intercept:false opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_getni_id ()Ljava/lang/Long;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_setni_id (Ljava/lang/Long;)V opCode:25,1
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_get_name ()Ljava/lang/String; intercept:true [Ljavax/persistence/Column;]
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_set_name (Ljava/lang/String;)V intercept:true opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_getni_name ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_setni_name (Ljava/lang/String;)V opCode:25,1
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_get_users ()Ljava/util/Set; intercept:true [Ljavax/persistence/ManyToMany;]
-ebean-enhance> cls: models/ebean/Role  msg: ... add Many null check on users ebtype:com/avaje/ebean/common/BeanSet
-ebean-enhance> cls: models/ebean/Role  msg: ... add ManyToMany modify listening to users
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_set_users (Ljava/util/Set;)V intercept:false opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_getni_users ()Ljava/util/Set;
-ebean-enhance> cls: models/ebean/Role  msg: _ebean_setni_users (Ljava/util/Set;)V opCode:25,1
-ebean-enhance> cls: models/ebean/Role  msg: fields size:3 [id, name, users]
-ebean-enhance> cls: models/ebean/Role  msg: adding equals() hashCode() and _ebean_getIdentity() with Id field id index:0 primitive:false
-ebean-enhance> cls: models/ebean/Role  msg: enhanced 
-ebean-enhance> cls: models/ebean/User  msg: interfaces:  entityInterface[false] transactional[false]
-ebean-enhance> cls: models/ebean/User  msg: performing entity transform
-ebean-enhance> cls: models/ebean/User  msg: ... add marker field "models.ebean.User"
-ebean-enhance> cls: models/ebean/User  msg: ... add _ebean_props field
-ebean-enhance> cls: models/ebean/User  msg: ... add intercept and identity fields
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[<init>] desc[()V] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: ... flush deferred: ALOAD 0
-ebean-enhance> cls: models/ebean/User  msg: ... adding intercept <init> in CONSTRUCTOR:()V OWNER/SUPER:java/lang/Object
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[getId] desc[()Ljava/lang/Long;] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: GETFIELD method:getId ()Ljava/lang/Long; field:id > _ebean_get_id ()Ljava/lang/Long;
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[setId] desc[(Ljava/lang/Long;)V] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: PUTFIELD method:setId (Ljava/lang/Long;)V field:id > _ebean_set_id (Ljava/lang/Long;)V
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[getEmail] desc[()Ljava/lang/String;] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: GETFIELD method:getEmail ()Ljava/lang/String; field:email > _ebean_get_email ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[setEmail] desc[(Ljava/lang/String;)V] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: PUTFIELD method:setEmail (Ljava/lang/String;)V field:email > _ebean_set_email (Ljava/lang/String;)V
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[getPassword] desc[()Ljava/lang/String;] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: GETFIELD method:getPassword ()Ljava/lang/String; field:password > _ebean_get_password ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[setPassword] desc[(Ljava/lang/String;)V] sig[null]
-ebean-enhance> cls: models/ebean/User  msg: PUTFIELD method:setPassword (Ljava/lang/String;)V field:password > _ebean_set_password (Ljava/lang/String;)V
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[getRoles] desc[()Ljava/util/Set;] sig[()Ljava/util/Set<Lmodels/ebean/Role;>;]
-ebean-enhance> cls: models/ebean/User  msg: GETFIELD method:getRoles ()Ljava/util/Set; field:roles > _ebean_get_roles ()Ljava/util/Set;
-ebean-enhance> cls: models/ebean/User  msg: --- #### method name[setRoles] desc[(Ljava/util/Set;)V] sig[(Ljava/util/Set<Lmodels/ebean/Role;>;)V]
-ebean-enhance> cls: models/ebean/User  msg: PUTFIELD method:setRoles (Ljava/util/Set;)V field:roles > _ebean_set_roles (Ljava/util/Set;)V
-ebean-enhance> cls: models/ebean/User  msg: ... add _ebean_getPropertyNames() and _ebean_getPropertyName()
-ebean-enhance> cls: models/ebean/User  msg: _ebean_get_id ()Ljava/lang/Long; intercept:false [Ljavax/persistence/Id;, Ljavax/persistence/GeneratedValue;]
-ebean-enhance> cls: models/ebean/User  msg: _ebean_set_id (Ljava/lang/Long;)V intercept:false opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_getni_id ()Ljava/lang/Long;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_setni_id (Ljava/lang/Long;)V opCode:25,1
-ebean-enhance> cls: models/ebean/User  msg: _ebean_get_email ()Ljava/lang/String; intercept:true [Ljavax/persistence/Column;]
-ebean-enhance> cls: models/ebean/User  msg: _ebean_set_email (Ljava/lang/String;)V intercept:true opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_getni_email ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_setni_email (Ljava/lang/String;)V opCode:25,1
-ebean-enhance> cls: models/ebean/User  msg: _ebean_get_password ()Ljava/lang/String; intercept:true [Ljavax/persistence/Column;]
-ebean-enhance> cls: models/ebean/User  msg: _ebean_set_password (Ljava/lang/String;)V intercept:true opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_getni_password ()Ljava/lang/String;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_setni_password (Ljava/lang/String;)V opCode:25,1
-ebean-enhance> cls: models/ebean/User  msg: _ebean_get_roles ()Ljava/util/Set; intercept:true [Ljavax/persistence/ManyToMany;, Ljavax/persistence/JoinTable;]
-ebean-enhance> cls: models/ebean/User  msg: ... add Many null check on roles ebtype:com/avaje/ebean/common/BeanSet
-ebean-enhance> cls: models/ebean/User  msg: ... add ManyToMany modify listening to roles
-ebean-enhance> cls: models/ebean/User  msg: _ebean_set_roles (Ljava/util/Set;)V intercept:false opCode:25,1 preSetterArgTypesLjava/lang/Object;Ljava/lang/Object;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_getni_roles ()Ljava/util/Set;
-ebean-enhance> cls: models/ebean/User  msg: _ebean_setni_roles (Ljava/util/Set;)V opCode:25,1
-ebean-enhance> cls: models/ebean/User  msg: fields size:4 [id, email, password, roles]
-ebean-enhance> cls: models/ebean/User  msg: adding equals() hashCode() and _ebean_getIdentity() with Id field id index:0 primitive:false
-ebean-enhance> cls: models/ebean/User  msg: enhanced 
+ebean-enhance> cls: models/ebean/Role  msg: interfaces:  entityInterface[true] transactional[false]
+ebean-enhance> cls: models/ebean/Role  msg: Found ebean marker field _EBEAN_MARKER models.ebean.Role
+ebean-enhance> cls: models/ebean/Role  msg: already enhanced entity
+ebean-enhance> cls: models/ebean/User  msg: interfaces:  entityInterface[true] transactional[false]
+ebean-enhance> cls: models/ebean/User  msg: Found ebean marker field _EBEAN_MARKER models.ebean.User
+ebean-enhance> cls: models/ebean/User  msg: already enhanced entity
 Copy resource mappings: 
 	(F:\play_framework\draft\conf\application.conf,F:\play_framework\draft\target\scala-2.11\classes\application.conf)
 	(F:\play_framework\draft\conf\evolutions.default,F:\play_framework\draft\target\scala-2.11\classes\evolutions.default)
@@ -6474,7 +6198,7 @@ Copy resource mappings:
 	(F:\play_framework\draft\conf\play.plugins,F:\play_framework\draft\target\scala-2.11\classes\play.plugins)
 	(F:\play_framework\draft\conf\routes,F:\play_framework\draft\target\scala-2.11\classes\routes)
 	(F:\play_framework\draft\conf\evolutions.default\2.sql,F:\play_framework\draft\target\scala-2.11\classes\evolutions.default\2.sql)
-Total time: 17 s, completed 30.04.2017 1:12:26
+Total time: 14 s, completed 30.04.2017 15:43:13
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -6483,4 +6207,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 5228@DESKTOP-KT7U7N9 logs at Sun Apr 30 01:14:25 MSK 2017, goodbye.
+Closing the 472@DESKTOP-KT7U7N9 logs at Sun Apr 30 15:44:40 MSK 2017, goodbye.

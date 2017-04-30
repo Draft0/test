@@ -28,7 +28,7 @@ jdbc,
   "org.springframework.security" % "spring-security-core" % "3.1.0.RELEASE",
   "junit" % "junit" % "4.4",
   "com.amazonaws" % "aws-java-sdk" % "1.2.1",
-
+  "org.springframework" % "spring-web" % "3.0.4.RELEASE",
 
   "org.springframework" % "spring-webmvc" % "4.3.7.RELEASE",
   "org.springframework" % "spring-aspects" % "4.3.7.RELEASE"
