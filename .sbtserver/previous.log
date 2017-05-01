@@ -6187,7 +6187,7 @@ ebean-enhance> cls: models/ebean/Role  msg: interfaces:  entityInterface[true] t
 ebean-enhance> cls: models/ebean/Role  msg: Found ebean marker field _EBEAN_MARKER models.ebean.Role
 ebean-enhance> cls: models/ebean/Role  msg: already enhanced entity
 ebean-enhance> cls: models/ebean/User  msg: interfaces:  entityInterface[true] transactional[false]
-ebean-enhance> cls: models/ebean/User  msg: Found ebean marker field _EBEAN_MARKER models.ebean.User
+ebean-enhance> cls: models/ebean/User  msg: Found ebean marker field _EBEAN_MARKER models.User
 ebean-enhance> cls: models/ebean/User  msg: already enhanced entity
 Copy resource mappings: 
 	(F:\play_framework\draft\conf\application.conf,F:\play_framework\draft\target\scala-2.11\classes\application.conf)

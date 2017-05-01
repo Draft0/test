@@ -23,15 +23,10 @@ jdbc,
   "org.hibernate" % "hibernate-core" % "5.2.5.Final",
   "org.springframework" % "spring-context" % "4.2.7.RELEASE",
   "org.hibernate" % "hibernate-entitymanager" % "5.1.0.Final",
-  "org.springframework.data" % "spring-data-jpa" % "1.11.0.RELEASE",
-  "org.springframework.security" % "spring-security-crypto" % "3.1.0.RELEASE",
-  "org.springframework.security" % "spring-security-core" % "3.1.0.RELEASE",
-  "junit" % "junit" % "4.4",
-  "com.amazonaws" % "aws-java-sdk" % "1.2.1",
-  "org.springframework" % "spring-web" % "3.0.4.RELEASE",
+  "org.webjars" % "webjars-play_2.11" % "2.5.0-4",
 
-  "org.springframework" % "spring-webmvc" % "4.3.7.RELEASE",
-  "org.springframework" % "spring-aspects" % "4.3.7.RELEASE"
+"junit" % "junit" % "4.4"
+
 
 
 

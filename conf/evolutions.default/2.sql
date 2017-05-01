@@ -23,7 +23,7 @@ CREATE TABLE public.users
   id integer NOT NULL,
   email character(255) NOT NULL,
   password character(255) NOT NULL,
-  date timestamp without time zone,
+  date timestamp,
   CONSTRAINT users_pkey PRIMARY KEY (id)
 )
 WITH (

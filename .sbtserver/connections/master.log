@@ -278,3 +278,9 @@ Taking next connection to: 39123
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 39123
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 5692@DESKTOP-KT7U7N9 logs at Sun Apr 30 22:46:55 MSK 2017, goodbye.
