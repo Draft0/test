@@ -4,6 +4,7 @@ import org.junit.*;
 import play.twirl.api.Content;
 
 import static org.junit.Assert.*;
+import static play.mvc.Controller.ctx;
 
 
 /**
@@ -13,6 +14,25 @@ import static org.junit.Assert.*;
  *
  */
 public class ApplicationTest {
+    @Test
+    public void index() throws Exception {
+    }
+
+    @Test
+    public void login() throws Exception {
+    }
+
+    @Test
+    public void postLogin() throws Exception {
+    }
+
+    @Test
+    public void logout() throws Exception {
+    }
+
+    @Test
+    public void profile() throws Exception {
+    }
 
     @Test
     public void simpleCheck() {

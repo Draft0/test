@@ -6,6 +6,8 @@ import play.mvc.Result;
 import play.mvc.Security;
 import views.formData.LoginFormData;
 import views.html.index;
+import views.html.login;
+import views.html.profile;
 
 /**
  * Created by Draft on 01.05.2017.

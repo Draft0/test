@@ -13,14 +13,16 @@ libraryDependencies ++= Seq(
   javaJpa,
   javaWs,
 jdbc,
-  "org.webjars" % "jquery" % "1.11.1",
-  "org.webjars" % "bootstrap" % "3.3.7" exclude("org.webjars", "jquery"),
+  ws,
+  filters,
+  "org.got5" % "tapestry5-jquery" % "3.4.2",
+  "org.webjars" % "bootstrap" % "3.3.7-1" exclude("org.webjars", "jquery"),
 "org.avaje" % "ebean" % "2.8.1",
 "io.ebean" % "ebean-agent" % "10.1.7",
   "org.postgresql" % "postgresql" % "42.0.0",
   "org.easytesting" % "fest-assert" % "1.4",
   "org.testng" % "testng" % "6.8",
-  "org.hibernate" % "hibernate-core" % "5.2.5.Final",
+  "com.adrianhurt" %% "play-bootstrap" % "1.1.1-P25-B3-SNAPSHOT" exclude("org.webjars", "jquery"),
   "org.springframework" % "spring-context" % "4.2.7.RELEASE",
   "org.hibernate" % "hibernate-entitymanager" % "5.1.0.Final",
   "org.webjars" % "webjars-play_2.11" % "2.5.0-4",
@@ -33,15 +35,15 @@ jdbc,
 
 )
 libraryDependencies += evolutions
-
+routesGenerator := StaticRoutesGenerator
 
 
 resolvers += Resolver.url("Edulify Repository", url("https://edulify.github.io/modules/releases/"))(Resolver.ivyStylePatterns)
 resolvers ++= DefaultOptions.resolvers(snapshot = true)
 
-playEbeanModels in Compile := Seq("models.ebean*")
+playEbeanModels in Compile := Seq("models*")
 
-playEbeanModels in Test := Seq("models.ebean*")
+playEbeanModels in Test := Seq("models*")
 playEbeanDebugLevel := 4
 inConfig(Test)(PlayEbean.scopedSettings)
 
