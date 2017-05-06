@@ -28,18 +28,18 @@
   <logger name="application" level="DEBUG" />
 
   <!-- Off these ones as they are annoying, and anyway we manage configuration ourselves -->
-  <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF" />
+  <logger name="com.avaje.ebean.config.PropertyMapLoader" level="ON" />
   <logger name="com.avaje.ebeaninternal.server.core.XmlConfigLoader" level="ERROR" />
-  <logger name="com.avaje.ebeaninternal.server.lib.BackgroundThread" level="INFO" />
+  <logger name="com.avaje.ebeaninternal.server.lib.BackgroundThread" level="ERROR" />
   <logger name="com.gargoylesoftware.htmlunit.javascript" level="ERROR" />
   <logger name="com.gargoylesoftware.htmlunit" level="ERROR" />
   <logger name="org.apache.http.client.protocol" level="ERROR" />
 
-  <logger name="org.jdbcdslog.ConnectionLogger" level="OFF"  /> <!-- Won' log connections -->
-  <logger name="org.jdbcdslog.StatementLogger"  level="INFO" /> <!-- Will log all statements -->
-  <logger name="org.jdbcdslog.ResultSetLogger"  level="OFF"  /> <!-- Won' log result sets -->
+  <logger name="org.jdbcdslog.ConnectionLogger" level="ERROR"  /> <!-- Won' log connections -->
+  <logger name="org.jdbcdslog.StatementLogger"  level="ERROR" /> <!-- Will log all statements -->
+  <logger name="org.jdbcdslog.ResultSetLogger"  level="ERROR"  /> <!-- Won' log result sets -->
 
-  <root level="WARN">
+  <root level="ERROR">
     <appender-ref ref="ASYNCFILE" />
     <appender-ref ref="ASYNCSTDOUT" />
   </root>

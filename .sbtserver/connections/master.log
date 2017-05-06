@@ -1,16 +1,7 @@
-New log file opened at Tue May 02 23:14:03 MSK 2017 by 8468@DESKTOP-KT7U7N9
-Taking next connection to: 18650
-New client attempting to connect on port: 18651-18650
-  Address = /192.168.0.154:18650
-This client on port 18651 has uuid 1cebac7c-fdf7-4393-b122-32370d981d94 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-1cebac7c-fdf7-4393-b122-32370d981d94
-Taking next connection to: 18650
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 18650
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 8468@DESKTOP-KT7U7N9 logs at Tue May 02 23:20:03 MSK 2017, goodbye.
+New log file opened at Sat May 06 23:15:32 MSK 2017 by 13804@DESKTOP-KT7U7N9
+Taking next connection to: 33018
+New client attempting to connect on port: 33019-33018
+  Address = /192.168.0.154:33018
+This client on port 33019 has uuid 299c0b9c-f3a2-45eb-b06f-0f7aa42b79c0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-299c0b9c-f3a2-45eb-b06f-0f7aa42b79c0
+Taking next connection to: 33018
