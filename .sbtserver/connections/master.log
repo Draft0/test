@@ -1,7 +1,31 @@
-New log file opened at Sat May 06 23:15:32 MSK 2017 by 13804@DESKTOP-KT7U7N9
-Taking next connection to: 33018
-New client attempting to connect on port: 33019-33018
-  Address = /192.168.0.154:33018
-This client on port 33019 has uuid 299c0b9c-f3a2-45eb-b06f-0f7aa42b79c0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-299c0b9c-f3a2-45eb-b06f-0f7aa42b79c0
-Taking next connection to: 33018
+New log file opened at Sun May 07 01:14:34 MSK 2017 by 7804@DESKTOP-KT7U7N9
+Taking next connection to: 41217
+New client attempting to connect on port: 41218-41217
+  Address = /192.168.0.154:41217
+This client on port 41218 has uuid 8b2131c9-64c3-43ae-bf20-19b962af3468 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-8b2131c9-64c3-43ae-bf20-19b962af3468
+Taking next connection to: 41217
+New client attempting to connect on port: 41284-41217
+  Address = /192.168.0.154:41217
+Handshake exception on socket: 41284
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 41217
+New client attempting to connect on port: 41285-41217
+  Address = /192.168.0.154:41217
+This client on port 41285 has uuid 50e2e328-1728-42ca-a0c4-67d09f1ccafa configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-50e2e328-1728-42ca-a0c4-67d09f1ccafa
+Taking next connection to: 41217
